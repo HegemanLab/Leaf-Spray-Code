@@ -10,7 +10,7 @@ setwd("C:/Users/Lab/Desktop/Coding_Bits/DIMS")
 ### SINGLE FILE PROCESSING
 
 # Input file goes here.
-input_filename <- "ACM_sept16_T1R2_GL2_method1.mzXML"
+input_filename <- "ACM_sept16_T1R2_GL21_method1.mzXML"
 
 # Creates a xcmsRaw object
 xraw <- xcmsRaw(input_filename)
@@ -40,10 +40,12 @@ write.csv(trim_neg, file = paste("neg-", substr(input_filename, 1, nchar(input_f
 
 # input filenames as a list. Each element must be in quotes (as a string)
 input_filenames <- c(
-  "ACM_sept16_T1R3_GL7_method1.mzXML", 
-  "ACM_sept16_T1R3_GL21_method1.mzXML",
+  "ACM_sept16_T1R2_GL21_method1.mzXML",
+  "ACM_sept16_T1R2_GL2_method1.mzXML",
   "ACM_sept16_T1R2_GL7_method1.mzXML",
-  "ACM_sept16_T1R2_GL2_method1.mzXML"
+  "ACM_sept16_T1R3_GL7_method1.mzXML",
+  "ACM_sept16_T1R3_GL20_method1.mzXML",
+  "ACM_sept16_T1R3_GL21_method1.mzXML"
   )
 
 # 'loops' through the filenames 
