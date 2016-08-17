@@ -25,4 +25,4 @@ Takes a file or list of files and extracts the mz values from that file. Can be 
 Takes a list of mz values and ouputs either a VanKrevelen scatter plot or heat map. For more detailed information about these scripts, see the VanKrevelen repo in this group. 
 
 ## Hegeman Lab - University of Minnesota Twin-Cities
-This code was developed for use in the Hegeman Lab at the University of Minnesota Twin-Cities. If you use this script in your research, please don't forget to site us. Additionally, if there are any questions about how to use this code, feel free to contact [Adrian Hegeman](hegem007@umn.edu). 
+This code was developed for use in the Hegeman Lab at the University of Minnesota Twin-Cities. If you use this script in your research, please don't forget to acknowledge or cite publication. Additionally, if there are any questions about how to use this code, feel free to contact [Adrian Hegeman](mailto:hegem007@umn.edu). 
