@@ -1,4 +1,4 @@
-# Tissue-Spray-Code
+# Leaf-Spray-Code
 
 ## Introduction/Motivation
 This set of scripts was developed for use in analyzing plant metabolomics. The repo contains an asortment of scripts that were used in conducting analysis around a Tissue Spray experiment using untargeted metabolomics and direct infusion data with no retention times. Recycled some parts from other packages as well which is why some of the code is in python and some in R.
